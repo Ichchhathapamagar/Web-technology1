@@ -1,0 +1,29 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS demo</title>
+    <style>
+        h1{
+            background-color: blue;
+            font-size:100px;
+            color:azure
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>CSS demo week4</h1>
+        <h1>Inline CSSCC</h1>
+    </header>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nostrum officiis quaerat! Quibusdam veritatis quasi hic vero modi, sit quia impedit! Cupiditate facilis omnis sed harum ab totam reprehenderit sint?</p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis nulla modi, accusamus neque veritatis aliquid culpa corporis vel magni quaerat recusandae ex cumque qui dolores aut tenetur temporibus voluptas!</P>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A velit eveniet culpa eius aspernatur vero, nam et eaque. Natus facere dicta et velit voluptates laudantium obcaecati delectus asperiores est esse?</P>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi hic nam alias ipsa similique dolor obcaecati numquam illo distinctio quis corporis quo commodi repudiandae, aut sapiente quidem quasi sequi tempore.</P>
+    
+</body>
+<h1> Inline CSS</h1>
+</html
