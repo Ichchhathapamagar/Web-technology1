@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#art">Art</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fab fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fab fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>I'm <span>Ichchha</span> Thapa Magar<br> from nepal.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myself2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an IT student,I am fascinated by how computers work and I spend most of my space time designing program and web pages because I enjoy problem solving and logical thinking.<br> Beside than that I love to travel because it takes me out of my comfort zone and i am always learning something new about myself and about that place each.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Place I have visited</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="lakeside.jpg">
+                    <div class="layer">
+                        <h3>Lakeside,Pokhara</h3>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="marpha2.jpg">
+                    <div class="layer">
+                        <h3>Marpha,Mustang</h3>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="muktinath.jpg">
+                   <div class="layer">
+                  <h3>Muktinath temple,Mustang</h3> 
+            </div>
+                </div>
+                <div class="work">
+                    <img src="waterfall.jpg">
+                    <div class="layer">
+                        <h3>Waterfall,Himalayan region</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ---------------Art---------- -->
+
+<div id="art">
+        <div class="Art">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">Little more about my interest</h1>
+                    <p>Beside than travelling and computers,I love the art of heena painting on the body . I have never took classes of it ,but I love making it.This dye is used to make designs to decorate the skin-usually on hands and feets.Its been more than 4 years trying differet designs and learning at the moment.</p>
+                </div><div class="about-col-1">
+                    <img src="mehendi.jpg" >
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>ichchhathapa467@gmail.com</p>
+                    <p>9808119903</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        
+        }function closemenu(){
+            sidemenu.style.right="-200px";
+        
+        }
+
+    </script>
+</html>
+</body>
